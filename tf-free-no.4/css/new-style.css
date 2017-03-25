@@ -1,0 +1,42 @@
+h2{
+	line-height: inherit;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5{
+	color: #37474F;
+}
+
+hr {
+    border-color: #0097A7;
+    width: 60px;
+}
+
+p{
+	font-size: inherit;
+}
+
+#tf-mensaje{
+	background: #ECEFF1;
+	padding: 10%  0;
+	text-align: center;
+}
+
+#tf-mesa, #tf-acerca{
+	padding: 10% 0; 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #FFF;
+}
+
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
+.content {
+    padding: 6% 0 10% 0;
+    text-align: center;
+}
+
