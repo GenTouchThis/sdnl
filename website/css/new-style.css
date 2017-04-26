@@ -126,3 +126,43 @@ nav#tf-footer {
     opacity: .9;
 }
 
+/* marko styles */
+
+.crono {
+	font-size: 11px;
+
+}
+.crono th {
+	background-color: #9C27B0;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cronotd {
+	background-color: #9C27B0;
+	color: #fff;
+	font-weight: 800;
+}
+
+.cronotd1 {
+	background-color: #BA68C8;
+	color: #fff;
+	font-weight: 800;
+}
+
+.cronotd2 {
+	background-color: #E1BEE7;
+	color: #455A64;
+	font-weight: 500;
+}
+
+.cronotd3 {
+	background-color: #F3E5F5;
+	color: #455A64;
+	font-weight: 500;
+}
+
+/* end marko styles */
+
