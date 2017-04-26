@@ -129,13 +129,13 @@ nav#tf-footer {
 /* marko styles */
 
 .crono {
-	font-size: 11px;
+	font-size: 12px;
 
 }
 .crono th {
 	background-color: #9C27B0;
 	color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
 	text-align: center;
 }
