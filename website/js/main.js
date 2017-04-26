@@ -51,3 +51,8 @@ function main() {
 
 }
 main();
+
+$(window).load(function()
+{
+    $('#mainModal').modal('show');
+});
