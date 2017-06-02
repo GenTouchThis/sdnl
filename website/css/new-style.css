@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+
+body {
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+h2{
+	line-height: inherit;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5{
+	color: #37474F;
+}
+
+hr {
+    border-color: #0097A7;
+    width: 60px;
+}
+
+p{
+	font-size: inherit;
+}
+
+#tf-historia, #tf-mensaje, #tf-profesores, #tf-cronograma{
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(233,240,245,1)), color-stop(100%, rgba(220,237,233,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcede9', GradientType=1 );
+}
+
+#tf-contacto{
+	background: rgba(34,168,134,1);
+	background: -moz-linear-gradient(left, rgba(34,168,134,1) 0%, rgba(44,222,175,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,168,134,1)), color-stop(100%, rgba(44,222,175,1)));
+	background: -webkit-linear-gradient(left, rgba(34,168,134,1) 0%, rgba(44,222,175,1) 100%);
+	background: -o-linear-gradient(left, rgba(34,168,134,1) 0%, rgba(44,222,175,1) 100%);
+	background: -ms-linear-gradient(left, rgba(34,168,134,1) 0%, rgba(44,222,175,1) 100%);
+	background: linear-gradient(to right, rgba(34,168,134,1) 0%, rgba(44,222,175,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22a886', endColorstr='#2cdeaf', GradientType=1 );
+	}
+
+#tf-mensaje, #tf-eventos{
+	padding: 10%  0;
+	text-align: center;
+}
+
+#tf-mesa, #tf-acerca, #tf-historia, #tf-profesores, #tf-cronograma, #tf-contacto{
+	padding: 10% 0; 
+}
+
+#tf-profesores h3, #tf-profesores h4{
+	text-align: center;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav#tf-footer {
+    background: #37474F;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #26C6DA;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.divider-lg{
+	padding: 45px;
+}
+
+.divider-md{
+	padding: 35px;
+}
+
+.divider-sm{
+	padding: 20px;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-logo{
+	width: 470px;
+}
+
+.profile{
+	border: 2px solid #FFF;
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	width: 200px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #FFF;
+}
+
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
+.content {
+    padding: 6% 0 10% 0;
+    text-align: center;
+}
+
+.modal {
+	z-index: 10000;
+}
+
+.close {
+    color: #FFF;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=.9);
+    opacity: .9;
+}
+
+/*                Marko Styles 
+============================================= */
+
+/*     Eventos
+====================*/
+
+#tf-eventos h3{
+	text-align: center;
+}
+
+.event {
+	font-size: 14px;
+
+}
+
+.event th {
+	background-color: #009688;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event-td {
+	background-color: #80CBC4;
+	color: #455A64;
+	font-weight: 600;
+	text-align: center;
+}
+.event-td2 {
+	background-color: #E0F2F1;
+	color: #455A64;
+	font-weight: 400;
+}
+
+
+/*    Actividades
+=====================*/
+
+
+.crono {
+	font-size: 14px;
+
+}
+.crono th {
+	background-color: #9C27B0;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cronotd {
+	background-color: #BA68C8;
+	color: #fff;
+	font-weight: 600;
+}
+
+.cronotd1 {
+	background-color: #BA68C8;
+	color: #fff;
+	font-weight: 600;
+}
+
+.cronotd2 {
+	background-color: #E1BEE7;
+	color: #455A64;
+	font-weight: 400;
+}
+
+.cronotd3 {
+	background-color: #F3E5F5;
+	color: #455A64;
+	font-weight: 400;
+}
+
+a.mdl:link, a.mdl:visited{
+	color: #00796B;
+	font-weight: bold;
+	text-transform: none;
+}
+
+a.mdl:hover{
+	color: #26A69A;
+}
+
+.bg-teal{
+	background: #00BFA5;
+	color: #FFF;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.close2{
+	color: black;
+}
+
+
+/*            End Marko Styles 
+============================================= */
+
